@@ -64,11 +64,14 @@ chatBot(){
                     replyMeth("ChatBot");
                 else if(textSpace.contains("gender"))
                     replyMeth("AI doesn't have a particular gender");
-
+                 else if(textSpace.contains("okay"))
+                      replyMeth("Yeah")
                 else
                     replyMeth("I DON'T UNDERSTAND");
             }
         }
+         
+         
     });
 
 
